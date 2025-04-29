@@ -30,6 +30,12 @@ export default function Home() {
             <Link to="/login">
               <button className="btn btn-outline-primary">Log In</button>
             </Link>
+            <Link to="/dashboard">
+    <button className="btn btn-primary">Go to Dashboard</button>
+  </Link>
+  <Link to="/transactions">
+    <button className="btn btn-success">Go to Transactions</button>
+  </Link>
           </div>
         </div>
         <div className="col-md-6 text-center">

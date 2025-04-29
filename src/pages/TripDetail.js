@@ -24,10 +24,10 @@ export default function TripDetail() {
   // Load trip info
   useEffect(() => {
     fetch(`/api/trips/${tripId}`).then(res => res.json()).then(setTrip);
-    fetch(`/api/expenses?tripId=${tripId}`).then(res => res.json()).then(setExpenses);
-    fetch(`/api/categories`).then(res => res.json()).then(setCategories);
-    fetch(`/api/currency-rates`).then(res => res.json()).then(setCurrencyRates);
-    fetch(`/api/trip-users?tripId=${tripId}`).then(res => res.json()).then(setMembers);
+    // fetch(`/api/expenses?tripId=${tripId}`).then(res => res.json()).then(setExpenses);
+    // fetch(`/api/categories`).then(res => res.json()).then(setCategories);
+    // fetch(`/api/currency-rates`).then(res => res.json()).then(setCurrencyRates);
+    // fetch(`/api/trip-users?tripId=${tripId}`).then(res => res.json()).then(setMembers);
   }, [tripId]);
 
   const handleFormChange = (e) => {

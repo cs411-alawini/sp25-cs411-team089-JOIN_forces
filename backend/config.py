@@ -1,0 +1,2 @@
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:joinforces25@104.197.178.32/travelEase'
+SQLALCHEMY_TRACK_MODIFICATIONS = False

@@ -1,0 +1,2 @@
+Previously, we attempted to index the primary keys; however, since primary keys are already indexed by default, this was not considered an effective indexing approach. To improve this, we modified the queries to use indexes on non-primary key attributes instead.
+After refining the queries, we analyzed the changes and have included a screenshot showing the updated results. Our changes are highlighted in yellow.
